@@ -1,0 +1,23 @@
+{
+  "name": "@cownw/design-system",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {},
+  "workspaces": [
+    "./packages/*",
+    "./website"
+  ],
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.5",
+    "@changesets/cli": "^2.23.0"
+  },
+  "scripts": {
+    "release": "yarn changeset publish",
+    "version": "yarn changeset version && yarn install --mode update-lockfile"
+  },
+  "packageManager": "yarn@3.2.4",
+  "resolutions": {
+    "@ember/render-modifiers": "^2.0.0",
+    "broccoli-asset-rewrite@^2.0.0": "patch:broccoli-asset-rewrite@npm%3A2.0.0#./.yarn/patches/broccoli-asset-rewrite-npm-2.0.0-c4ce42084a.patch"
+  }
+}
