@@ -1,0 +1,16 @@
+{
+    "tabs": {
+        "tab": {
+            "height": {
+                "value": "36",
+                "type": "size"
+            },
+            "padding": {
+                "horizontal": {
+                    "value": "12",
+                    "type": "size"
+                }
+            }
+        }
+    }
+}

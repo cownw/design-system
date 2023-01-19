@@ -1,0 +1,39 @@
+{
+  "name": "@cownw/design-system-tokens",
+  "version": "0.0.1",
+  "description": "Helios Design Tokens",
+  "keywords": [
+    "hashicorp",
+    "helios",
+    "design tokens",
+    "tokens",
+    "style dictionary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cownw/design-system.git",
+    "directory": "packages/tokens"
+  },
+  "scripts": {
+    "typecheck": "yarn tsc --noEmit",
+    "lint": "yarn eslint --quiet --ext .js,.ts",
+    "build": "ts-node --transpile-only ./scripts/build"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.1.0",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.7.1",
+    "@types/tinycolor2": "^1.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "del": "^5.1.0",
+    "eslint": "^7.32.0",
+    "fs-extra": "^10.0.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "style-dictionary": "^3.0.3",
+    "tinycolor2": "^1.4.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
